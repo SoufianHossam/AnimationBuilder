@@ -16,6 +16,7 @@
 		31D664C52111C9CB0007BF3D /* BasicAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D664C42111C9CB0007BF3D /* BasicAnimationVC.swift */; };
 		31D664C72111D38A0007BF3D /* CombineAnimationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D664C62111D38A0007BF3D /* CombineAnimationsVC.swift */; };
 		31D664C92111DD3B0007BF3D /* ChainAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D664C82111DD3B0007BF3D /* ChainAnimationVC.swift */; };
+		31D664CD2111F9DF0007BF3D /* Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 31D664CC2111F9DF0007BF3D /* Demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		31D664C42111C9CB0007BF3D /* BasicAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationVC.swift; sourceTree = "<group>"; };
 		31D664C62111D38A0007BF3D /* CombineAnimationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAnimationsVC.swift; sourceTree = "<group>"; };
 		31D664C82111DD3B0007BF3D /* ChainAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainAnimationVC.swift; sourceTree = "<group>"; };
+		31D664CC2111F9DF0007BF3D /* Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		31D664AD2111BFB70007BF3D /* AnimationBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				31D664CC2111F9DF0007BF3D /* Demo.gif */,
 				31D664AE2111BFB70007BF3D /* AppDelegate.swift */,
 				31D664CA2111E88F0007BF3D /* Scenes */,
 				31D664C12111BFE70007BF3D /* AnimationBuilder.swift */,
@@ -161,6 +164,7 @@
 			files = (
 				31D664B92111BFB70007BF3D /* LaunchScreen.storyboard in Resources */,
 				31D664B62111BFB70007BF3D /* Assets.xcassets in Resources */,
+				31D664CD2111F9DF0007BF3D /* Demo.gif in Resources */,
 				31D664B42111BFB70007BF3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +319,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86MGZ7B3XL;
 				INFOPLIST_FILE = AnimationBuilder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SoufianHossam.AnimationBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,7 +335,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86MGZ7B3XL;
 				INFOPLIST_FILE = AnimationBuilder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SoufianHossam.AnimationBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
