@@ -1,5 +1,4 @@
 # AnimationBuilder
-
 A simple and easy-to-use wrapper class to deal with iOS animations.
 
 ## Overview
